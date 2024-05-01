@@ -1,0 +1,12 @@
+{
+    "firstname" : "Hector",
+    "lastname" : "Amaya",
+    "totalprice" : 35,
+    "depositpaid" : true,
+    "bookingdates" : {
+        "checkin" : "2024-04-30",
+        "checkout" : "2024-04-30"
+    },
+    "additionalneeds" : "none"
+
+}
