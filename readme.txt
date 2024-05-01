@@ -3,7 +3,7 @@ Playwright.
 
 This project requires the following:
 Install Visual Studio Code.
-Install Node 
+Install Node js
 
 You need to have Playwright dependencies installed.
 npm init playwright@latest
