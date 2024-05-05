@@ -33,31 +33,6 @@ test('API Requests Methods', async ({ request }) => {
 
     //PUT Method
 
-  
-       // PUT Method
-      //  console.log("/////////  PUT   ///////////");
-      //  const tokenAPIResponse = await api.postBooking("/auth", {
-      //       data: tokenApi 
-      //      });
-
-      // const varFloat = await console.log(tokenAPIResponse.ok());
-      //  //console.log(expect(varFloat).toBeTruthy());
-       
-      //  //expect(tokenAPIResponse.status()).toBe(200);
-   
-      //  console.log(await tokenAPIResponse.json());
-      //  const tokenResponseBody = await tokenAPIResponse.json();
-      //  const tokenNumber = tokenResponseBody.token;
-   
-      //  const putResponse = await api.putBookingById(bId, tokenNumber, putApi);
-      //  console.log('PUT Response:', putResponse.status());
-   
-      //  const putResponseBody = await putResponse.json();
-      //  console.log(putResponseBody)
-   
-      //  // Validate 
-      //  expect(putResponse.status()).toBe(200);
-
   // generate token
   const tokenAPIResponse = await request.post("/auth", {
     data: tokenApi,

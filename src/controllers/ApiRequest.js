@@ -13,16 +13,6 @@ class ApiRequest {
         return await this.request.get(`/booking/${bookingId}`);
     }
 
-    async putBookingById(bookingId, tokenNumber, putApi) {
-        return await this.request.put(`/booking/${bookingId}`, {
-            headers: {
-                "Content-Type": "application/json",
-                "Cookie": `token=${tokenNumber}`
-            },
-            putApi
-        });
-    }
-
     async getBookingById(bookingId) {
         return await this.request.get(`/booking/${bookingId}`);
     }
