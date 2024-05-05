@@ -1,7 +1,7 @@
 const {test, expect} = require('@playwright/test');
-const postApi = require('../Data/post_request_structure.json');
-const putApi = require('../Data/put_request_structure.json');
-const tokenApi = require('../Data/token.json');
+const postApi = require('../../Data/post_request_structure.json');
+const putApi = require('../../Data/put_request_structure.json');
+const tokenApi = require('../../Data/token.json');
 
 test('API Requests Methods',async({request})=>{
 
